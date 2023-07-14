@@ -7,7 +7,7 @@
         $("#data").val('');
 
         $.ajax({
-            url: 'http://20.120.121.194:3000/',
+            url: ' http://127.0.0.1:5000',
             type: 'POST',
             data: {
                 name: $value
